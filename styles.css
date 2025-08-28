@@ -12,6 +12,7 @@
             margin: 0px;
         }        
         body{   
+            max-height: 100vh;
             background-color: white;
         }
 
@@ -23,9 +24,12 @@
         }
         header h1{
             font-family: var(--fonte2);
-            font-size: 7vw;
+            font-size: 10vw;
             color: white;
             text-align: center;
+            font-variant: small-caps;
+            /* Basicamente, resumiu a gambiarrra que eu fiz, de encapsular as letras 
+            C e M como <?span> e depois aumentar o tamanho. */
         }
         header p{
             font-family: var(--fonte1);
@@ -84,9 +88,7 @@
             background-image: url(imagens/background002.jpg);
         }
 
-        #letramaior{
-            font-size: 1.4em;
-        }
+       
         
         footer{
             text-align: center;
